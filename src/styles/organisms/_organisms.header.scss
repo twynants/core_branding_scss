@@ -4,8 +4,8 @@
  */
 
 .o-header {
-  background-color: $header-bg;
-  border-bottom: 1px solid $header-border;
+  background: $header-bg;
+  box-shadow: 0 -1px 0 $header-border;
   height: $header-height;
 }
 
