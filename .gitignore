@@ -4,8 +4,8 @@
 
 # Dependency directory
 node_modules
-bower_components
 
 # Project files
 .tmp
+.vscode
 dist
