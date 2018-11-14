@@ -9,7 +9,13 @@
   "scripts": {
     "build": "echo \"Build…\" && exit 1",
     "start": "echo \"Start…\" && exit 1",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss:dev": "node-sass --output-style expanded -o .tmp/styles src/styles",
+    "scss:prod": "node-sass --output-style compressed -o dist/styles src/styles",
+    "clean:tmp": "rimraf .tmp",
+    "clean:dist": "rimraf dist",
+    "autoprefixer:dev": "postcss --no-map -u autoprefixer --autoprefixer.browsers '&gt; 0.5%, last 2 versions, Firefox ESR, not dead' -r .tmp/styles/*",
+    "autoprefixer:prod": "postcss --map {inline: false} -u autoprefixer --autoprefixer.browsers '&gt; 0.5%, last 2 versions, Firefox ESR, not dead' -r dist/styles/*"
   },
   "contributors": [
     {
@@ -21,5 +27,11 @@
       "email": "sander.geenen@district01.be"
     }
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.3.1",
+    "node-sass": "^4.10.0",
+    "postcss-cli": "^6.0.1",
+    "rimraf": "^2.6.2"
+  }
 }
