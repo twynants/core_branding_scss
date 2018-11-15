@@ -8,12 +8,13 @@
   },
   "scripts": {
     "build": "echo \"Build…\" && exit 1",
-    "start": "echo \"Start…\" && exit 1",
+    "start": "npm run clean:dev && npm run scss:dev && npm run autoprefixer:dev && npm run templates:dev && npm run lint && npm run serve:dev",
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss:dev": "node-sass --output-style expanded -o .tmp/styles src/styles",
     "scss:prod": "node-sass --output-style compressed -o dist/styles src/styles",
     "clean:dev": "rimraf .tmp",
     "clean:prod": "rimraf dist",
+    "lint": "sass-lint -c .sass-lint.yml 'src/styles/**/*.scss' -v -q",
     "autoprefixer:dev": "postcss --no-map -u autoprefixer --autoprefixer.browsers '&gt; 0.5%, last 2 versions, Firefox ESR, not dead' -r .tmp/styles/*",
     "autoprefixer:prod": "postcss --map {inline: false} -u autoprefixer --autoprefixer.browsers '&gt; 0.5%, last 2 versions, Firefox ESR, not dead' -r dist/styles/*",
     "templates:dev": "node scripts/templates.js && nunjucks index.njk .tmp/data.json -p src -o .tmp && rimraf .tmp/data.json",
@@ -39,6 +40,7 @@
     "nunjucks-cli": "^0.5.1",
     "postcss-cli": "^6.0.1",
     "rimraf": "^2.6.2",
+    "sass-lint": "^1.12.1",
     "sass-vars-to-js": "^0.8.7"
   }
 }
