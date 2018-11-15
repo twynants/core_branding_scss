@@ -12,10 +12,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss:dev": "node-sass --output-style expanded -o .tmp/styles src/styles",
     "scss:prod": "node-sass --output-style compressed -o dist/styles src/styles",
-    "clean:tmp": "rimraf .tmp",
-    "clean:dist": "rimraf dist",
+    "clean:dev": "rimraf .tmp",
+    "clean:prod": "rimraf dist",
     "autoprefixer:dev": "postcss --no-map -u autoprefixer --autoprefixer.browsers '&gt; 0.5%, last 2 versions, Firefox ESR, not dead' -r .tmp/styles/*",
-    "autoprefixer:prod": "postcss --map {inline: false} -u autoprefixer --autoprefixer.browsers '&gt; 0.5%, last 2 versions, Firefox ESR, not dead' -r dist/styles/*"
+    "autoprefixer:prod": "postcss --map {inline: false} -u autoprefixer --autoprefixer.browsers '&gt; 0.5%, last 2 versions, Firefox ESR, not dead' -r dist/styles/*",
+    "templates:dev": "node scripts/templates.js && nunjucks index.njk .tmp/data.json -p src -o .tmp && rimraf .tmp/data.json",
+    "serve:dev": "browser-sync start --server .tmp --server src --files '.tmp/styles/*.css' --base-dir --no-notify"
   },
   "contributors": [
     {
@@ -30,8 +32,13 @@
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^9.3.1",
+    "browser-sync": "^2.26.3",
+    "list-selectors": "^2.0.0",
     "node-sass": "^4.10.0",
+    "nunjucks": "^3.1.4",
+    "nunjucks-cli": "^0.5.1",
     "postcss-cli": "^6.0.1",
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.2",
+    "sass-vars-to-js": "^0.8.7"
   }
 }
