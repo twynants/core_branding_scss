@@ -8,7 +8,9 @@
   },
   "scripts": {
     "build": "echo \"Build…\" && exit 1",
-    "start": "npm run clean:dev && npm run scss:dev && npm run autoprefixer:dev && npm run templates:dev && npm run lint && npm run serve:dev",
+    "css:dev": "npm run scss:dev && npm run autoprefixer:dev",
+    "start": "parallelshell 'npm run start:dev' 'npm run watch:scss' 'npm run watch:templates'",
+    "start:dev": "npm run clean:dev && npm run css:dev && npm run templates:dev && npm run lint && npm run serve:dev",
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss:dev": "node-sass --output-style expanded -o .tmp/styles src/styles",
     "scss:prod": "node-sass --output-style compressed -o dist/styles src/styles",
@@ -18,7 +20,9 @@
     "autoprefixer:dev": "postcss --no-map -u autoprefixer --autoprefixer.browsers '&gt; 0.5%, last 2 versions, Firefox ESR, not dead' -r .tmp/styles/*",
     "autoprefixer:prod": "postcss --map {inline: false} -u autoprefixer --autoprefixer.browsers '&gt; 0.5%, last 2 versions, Firefox ESR, not dead' -r dist/styles/*",
     "templates:dev": "node scripts/templates.js && nunjucks index.njk .tmp/data.json -p src -o .tmp && rimraf .tmp/data.json",
-    "serve:dev": "browser-sync start --server .tmp --server src --files '.tmp/styles/*.css' --base-dir --no-notify"
+    "serve:dev": "browser-sync start --server .tmp --server src --files '.tmp/styles/*.css' --base-dir --no-notify -w",
+    "watch:scss": "onchange src/styles/**/*.scss -- npm run css:dev",
+    "watch:templates": "onchange src/**/*.njk -- npm run templates:dev"
   },
   "contributors": [
     {
@@ -38,6 +42,8 @@
     "node-sass": "^4.10.0",
     "nunjucks": "^3.1.4",
     "nunjucks-cli": "^0.5.1",
+    "onchange": "^5.1.0",
+    "parallelshell": "^3.0.2",
     "postcss-cli": "^6.0.1",
     "rimraf": "^2.6.2",
     "sass-lint": "^1.12.1",
