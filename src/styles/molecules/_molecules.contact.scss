@@ -3,11 +3,11 @@
  * -------------------------------------------------------------------
  */
 
-.m-contact {
+.m-contact, %m-contact {
   align-items: center;
   display: flex;
 }
 
-.m-contact__info {
+.m-contact__info, %m-contact__info {
   padding: 0 $spacer-xs;
 }

@@ -1,0 +1,12 @@
+.page-actions.accordion {
+	@extend %m-accordion;
+	.page-action {
+		@extend %m-accordion__tab;
+		.page-action-label {
+			@extend %m-accordion__header-is-open;
+		}
+	}
+	[template="nabu-page"] .page {
+		@extend %m-accordion__content;
+	}
+}

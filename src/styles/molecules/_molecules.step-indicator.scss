@@ -3,7 +3,7 @@
  * -------------------------------------------------------------------
  */
 
-.m-step-indicator {
+.m-step-indicator, %m-step-indicator {
   @extend %a-list--reset;
   display: flex;
   flex-wrap: wrap;

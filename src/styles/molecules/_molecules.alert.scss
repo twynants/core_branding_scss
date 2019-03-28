@@ -3,7 +3,7 @@
  * -------------------------------------------------------------------
  */
 
-.m-alert {
+.m-alert, %m-alert {
   padding: $alert-padding;
   position: relative;
 
@@ -18,7 +18,7 @@
   }
 }
 
-.m-alert__actions {
+.m-alert__actions, %m-alert__actions {
   margin-bottom: -$spacer-xs;
 
   @include at($screen-xs) {

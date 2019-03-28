@@ -9,7 +9,7 @@
  * -------------------------------------------------------------------
  */
 
-.m-image {
+.m-image, %m-image {
   display: inline-block;
   overflow: hidden;
   position: relative;
@@ -26,7 +26,7 @@
  * -------------------------------------------------------------------
  */
 
-.m-image__copyright {
+.m-image__copyright, %m-image__copyright {
   bottom: 0;
   color: $copyright-color;
   position: absolute;

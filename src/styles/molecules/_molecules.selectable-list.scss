@@ -11,7 +11,7 @@
   }
 }
 
-.m-selectable-list {
+.m-selectable-list, %m-selectable-list {
   @extend %a-list--reset;
 
   li {
@@ -36,7 +36,7 @@
  * -------------------------------------------------------------------
  */
 
-.m-selectable-list__item {
+.m-selectable-list__item, %m-selectable-list__item {
   color: $input-color;
   display: block;
   padding: $link-list-item-padding;

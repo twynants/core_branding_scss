@@ -97,7 +97,7 @@
  * -------------------------------------------------------------------
  */
 
-.m-nav-tabs {
+.m-nav-tabs, %m-nav-tabs {
   @extend %m-nav-list;
 
   @include at($screen-sm) {

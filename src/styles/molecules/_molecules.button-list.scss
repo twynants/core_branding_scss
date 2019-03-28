@@ -3,7 +3,7 @@
  * -------------------------------------------------------------------
  */
 
-.m-button-list {
+.m-button-list, %m-button-list {
   @extend %a-list--reset;
 
   li:not(:last-child) {
@@ -16,7 +16,7 @@
  * -------------------------------------------------------------------
  */
 
-.m-button-list--horizontal {
+.m-button-list--horizontal, %m-button-list--horizontal {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: -$spacer-xs;

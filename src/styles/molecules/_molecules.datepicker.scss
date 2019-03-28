@@ -3,7 +3,7 @@
  * -------------------------------------------------------------------
  */
 
-.m-datepicker {
+.m-datepicker, %m-datepicker {
   max-width: $spacer * 14;
   opacity: 0;
   transform: translateY(-$spacer-lg);
@@ -25,23 +25,23 @@
  * -------------------------------------------------------------------
  */
 
-.m-datepicker__nav {
+.m-datepicker__nav, %m-datepicker__nav {
   display: flex;
   height: $spacer-lg;
 }
 
-.m-datepicker__title {
+.m-datepicker__title, %m-datepicker__title {
   flex: 1;
 }
 
-.m-datepicker__days {
+.m-datepicker__days, %m-datepicker__days {
   background-color: $datepicker-bg;
   border-left: 1px solid $datepicker-border;
   border-right: 1px solid $datepicker-border;
   height: $spacer-lg;
 }
 
-.m-datepicker__calendar {
+.m-datepicker__calendar, %m-datepicker__calendar {
   background-color: $datepicker-bg;
 
   td {

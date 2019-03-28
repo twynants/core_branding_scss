@@ -7,7 +7,7 @@
   margin-top: $spacer-xs;
 }
 
-.m-accordion__tab {
+.m-accordion__tab, %m-accordion__tab {
 
   &:not(:first-child) {
     margin-top: -1px;
@@ -26,7 +26,7 @@
   }
 }
 
-.m-accordion__header {
+.m-accordion__header, %m-accordion__header {
   background-color: $accordion-header-bg;
   border: 1px solid $accordion-border;
   cursor: pointer;
@@ -54,7 +54,7 @@
   }
 }
 
-.m-accordion__content {
+.m-accordion__content, %m-accordion__content {
   background-color: $accordion-content-bg;
   border-bottom: none;
   border-left: 1px solid $accordion-border;

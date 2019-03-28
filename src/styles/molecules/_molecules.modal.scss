@@ -3,7 +3,7 @@
  * -------------------------------------------------------------------
  */
 
-.m-modal {
+.m-modal, %m-modal {
   background-color: $modal-bg;
   border: 1px solid $modal-border;
   width: 100%;
@@ -29,12 +29,12 @@
  * -------------------------------------------------------------------
  */
 
-.m-modal__content {
+.m-modal__content, %m-modal__content {
   padding: $modal-padding;
   position: relative;
 }
 
-.m-modal__footer {
+.m-modal__footer, %m-modal__footer {
   margin-bottom: -$spacer-xs;
 
   @include at($screen-xs) {

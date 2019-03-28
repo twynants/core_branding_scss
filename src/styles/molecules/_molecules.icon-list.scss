@@ -3,7 +3,7 @@
  * -------------------------------------------------------------------
  */
 
-.m-icon-list {
+.m-icon-list, %m-icon-list {
   @extend %a-list--reset;
 
   li {

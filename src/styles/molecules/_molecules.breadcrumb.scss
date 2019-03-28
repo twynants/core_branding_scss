@@ -4,7 +4,7 @@
  */
 
 
-.m-breadcrumbs {
+.m-breadcrumbs, %m-breadcrumbs {
   @extend %a-list--reset;
   @include clearfix;
 

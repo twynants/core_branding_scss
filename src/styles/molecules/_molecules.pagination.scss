@@ -3,7 +3,7 @@
  * -------------------------------------------------------------------
  */
 
-.m-pagination {
+.m-pagination, %m-pagination {
   @extend %a-list--reset;
   display: flex;
 
@@ -64,7 +64,7 @@
   }
 }
 
-.m-pagination--outline {
+.m-pagination--outline, %m-pagination--outline {
 
   > li {
     background-color: $pagination-outline-bg;

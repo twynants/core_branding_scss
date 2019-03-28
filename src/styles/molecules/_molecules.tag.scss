@@ -3,7 +3,7 @@
  * -------------------------------------------------------------------
  */
 
-.m-tag {
+.m-tag, %m-tag {
   background: $tag-bg;
   box-shadow: 0 0 0 1px $tag-border inset;
   color: $tag-color;
@@ -17,7 +17,7 @@
   }
 }
 
-.m-tag__label {
+.m-tag__label, %m-tag__label {
   @extend %u-text-truncate;
   display: block;
   font-weight: $bold;
@@ -25,7 +25,7 @@
   padding: 0 $spacer-xs;
 }
 
-.m-tag__input {
+.m-tag__input, %m-tag__input {
   @include a-input-placeholder {
     color: $tag-placeholder;
   }

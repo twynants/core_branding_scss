@@ -4,7 +4,7 @@
  */
 
 
-.m-gallery {
+.m-gallery, %m-gallery {
   @extend %a-list--reset;
   @include clearfix;
   display: flex;
@@ -19,7 +19,7 @@
  * -------------------------------------------------------------------
  */
 
-.m-gallery__item {
+.m-gallery__item, %m-gallery__item {
   margin: 0 #{$gallery-gutter-col / 2} #{$gallery-gutter-row};
   width: calc(#{$gallery-item-size} - #{$gallery-gutter-col});
 

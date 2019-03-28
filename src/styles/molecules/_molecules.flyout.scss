@@ -3,7 +3,7 @@
  * -------------------------------------------------------------------
  */
 
-.m-flyout {
+.m-flyout, %m-flyout {
   display: inline-block; // Inline-block so our wrapper element is never bigger than our action (button, ...)
   position: relative;
 }
@@ -14,7 +14,7 @@
  * -------------------------------------------------------------------
  */
 
-.m-flyout__content {
+.m-flyout__content, %m-flyout__content {
   background-color: $flyout-bg;
   border: 1px solid $flyout-border;
   box-shadow: $box-shadow;

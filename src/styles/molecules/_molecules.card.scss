@@ -3,7 +3,7 @@
  * -------------------------------------------------------------------
  */
 
-.m-card {
+.m-card, %m-card {
   background-color: $white;
   border: 1px solid $border-color;
 }
@@ -14,15 +14,15 @@
  * -------------------------------------------------------------------
  */
 
-.m-card__header {
+.m-card__header, %m-card__header {
   padding: $card-header-padding;
 }
 
-.m-card__image img {
+.m-card__image img, %m-card__image {
   display: block;
   width: 100%;
 }
 
-.m-card__body {
+.m-card__body, %m-card__body {
   padding: $card-content-padding;
 }

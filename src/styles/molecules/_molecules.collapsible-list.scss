@@ -3,7 +3,7 @@
  * -------------------------------------------------------------------
  */
 
-.m-collapsible-list {
+.m-collapsible-list, %m-collapsible-list {
   @extend %a-list;
   @extend %a-list--unstyled;
 
@@ -21,7 +21,7 @@
  * -------------------------------------------------------------------
  */
 
-.m-collapsible-list__item {
+.m-collapsible-list__item, %m-collapsible-list__item {
   &:not(.is-active) {
     > a {
       transition: none;
