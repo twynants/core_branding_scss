@@ -3,7 +3,7 @@
  * -------------------------------------------------------------------
  */
 
-.m-upload {
+.m-upload, %m-upload {
   &.is-disabled {
     .m-upload__dropzone {
       border-color: $state-disabled;
@@ -31,12 +31,12 @@
  * -------------------------------------------------------------------
  */
 
-.m-upload__inner {
+.m-upload__inner, %m-upload__inner {
   display: flex;
   flex-direction: row;
 }
 
-.m-upload__dropzone {
+.m-upload__dropzone, %m-upload__dropzone {
   align-items: center;
   background-color: $upload-bg;
   border: 2px dashed $upload-border;
@@ -58,7 +58,7 @@
   }
 }
 
-.m-upload__input {
+.m-upload__input, %m-upload__input {
   bottom: 0;
   cursor: pointer;
   height: 100%;
@@ -76,7 +76,7 @@
   }
 }
 
-.m-upload__content {
+.m-upload__content, %m-upload__content {
   max-width: $spacer * 15;
   width: 100%;
 
@@ -92,16 +92,16 @@
   }
 }
 
-.m-upload__progress {
+.m-upload__progress, %m-upload__progress {
   pointer-events: none;
 }
 
-.m-upload__description {
+.m-upload__description, %m-upload__description {
   display: block;
   margin-top: $spacer-xs;
 }
 
-.m-upload__files {
+.m-upload__files, %m-upload__files {
   @extend %a-list--reset;
   margin-top: $spacer;
 
