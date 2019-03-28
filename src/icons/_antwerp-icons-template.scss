@@ -24,7 +24,7 @@
 // :: CLASSES
 // -------------------------------------------------------------------
 // Note: Use single quotes ('') for content in pseudo-selectors
-// as double quotes ("") are not supported in <IE9
+// as double quotes ("") are not supported in IE9
 <% _.each(glyphs, function(glyph) { %>
 %<%= className %>-<%= glyph.name %> {
   @extend %icon-template;
