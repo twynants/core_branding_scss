@@ -3,7 +3,7 @@
  * -------------------------------------------------------------------
  */
 
-.o-header {
+.o-header, %o-header {
   background-color: $header-bg;
   border-bottom: 1px solid $header-border;
   height: $header-height;
@@ -15,7 +15,7 @@
  * -------------------------------------------------------------------
  */
 
-.o-header__logo {
+.o-header__logo, %o-header__logo {
   position: absolute;
   top: $header-height;
 

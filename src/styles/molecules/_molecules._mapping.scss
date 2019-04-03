@@ -1,11 +1,148 @@
-.page-actions.accordion {
-	.page-action {
-		@extend %m-accordion__tab;
-		.page-action-label {
-			@extend %m-accordion__header;
+.page-actions {
+	margin: 1rem;
+	&.accordion {
+		.page-action {
+			@extend %m-accordion__tab;
+			.page-action-label {
+				@extend %m-accordion__header;
+				background-color: darken($light-color,10);
+				&:after {
+				    font-family: 'Font Awesome 5 Free' !important;
+					font-weight: 900 !important;
+					content: "\f078" !important;
+					font-size: 14px !important;
+					right: 0.7rem !important;
+				}
+			}
+			.page-actions {
+				margin: 0rem;
+			}
+			[template="nabu-page"] .page {
+				@extend %m-accordion__content;
+				[template="nabu-page"] .page {
+					border: none;
+				}
+			}
 		}
 	}
-	[template="nabu-page"] .page {
-		@extend %m-accordion__content;
+	&.sidebar {
+		@extend %m-nav-list;
+		.page-action {
+			.page-action-entry {
+				text-align: left;
+			}
+		}
+	}
+	&.group {
+		@extend %m-button-group;
+		flex-flow: row;
+	}
+	&.list {
+		@extend %m-button-list;
+		&.page-actions-root {
+			margin: 0 1rem;
+			flex-flow: row;
+		}
+	}
+	&.navigation {
+		@extend %m-nav-tabs;
+		&.page-actions-root {
+			margin: 3rem;
+			&:focus {
+				outline:0;
+			}
+			.page-action-entry {
+				display: flex;
+				flex-flow: row nowrap;
+				align-items: center;
+				.icon {
+					&:before {
+						font-size: 2rem;
+					}
+				}
+			}
+		}
+	}
+	&.close {
+		
+	}
+}
+
+
+.n-input-date {
+	table {
+		caption {
+			// @extend %m-datepicker__nav;
+			background-color: $btn-primary-bg;
+			color: $btn-primary-color;
+		}
+		thead {
+			tr {
+				@extend %m-datepicker__days;
+				th {
+					color: $black;
+					background-color: $white;
+				}
+			}
+		}
+		tbody {
+			// @extend %m-datepicker__calendar;
+			tr {
+				border: 1px solid black;
+				border-style: solid none;
+				.n-input-date-selected {
+				      background-color: $datepicker-selected-bg;
+				      box-shadow: 0 0 0 1px $datepicker-selected-bg;
+				      color: $datepicker-selected-color;
+				      font-weight: $datepicker-selected-font-weight;
+				}
+				.n-input-date-today {
+				      background-color: $datepicker-today-bg;
+				      color: $datepicker-today-color;
+				      font-weight: $datepicker-today-font-weight;
+				}
+				td {
+					border: 1px solid $datepicker-border;
+					border-style: none solid solid none;
+				}
+			}
+		}
+	}
+}
+
+
+.n-file-uploader {
+	@extend %m-upload;
+	.n-input-file {
+		@extend %m-upload__inner;
+		@extend %m-upload__dropzone;
+		width: auto;
+		> div {
+			@extend %m-upload__content;
+		}
+		.n-icon-loader {
+			@extend %m-upload__content;
+		}
+	}
+}
+
+
+.data-card-list {
+	.data-card {
+		@extend %m-card;
+		.page-field.data-card-field {
+			.page-field-fragment {
+				&.header {
+					@extend %m-card__header;
+				}
+				&.body {
+					@extend %m-card__body;
+				}
+			}
+			.page-row {
+				display: flex;
+				flex-flow: column;
+			}
+		}
 	}
 }

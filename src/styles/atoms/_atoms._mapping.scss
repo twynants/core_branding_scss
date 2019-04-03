@@ -1,0 +1,343 @@
+.page-action-button, .page-action-entry, .global-actions button, .footer-edit .form-edit {
+	@extend %a-button;
+    align-items: center;
+	display: flex;
+	flex-flow: row nowrap;
+	text-transform: capitalize;
+	&.primary {
+		@include a-button($btn-primary-color, $btn-primary-bg);
+	}
+	&.secondary {
+		@include a-button($btn-secondary-color, $btn-secondary-bg);
+	}
+	&.success {
+		@include a-button($btn-success-color, $btn-success-bg);
+	}
+	&.warning {
+		@include a-button($btn-warning-color, $btn-warning-bg);
+	}
+	&.danger {
+		@include a-button($btn-danger-color, $btn-danger-bg);
+	}
+	&.transparent {
+		@include a-button($btn-transparent-color, $btn-transparent-bg);
+		text-decoration: underline;
+	}
+	&.negative {
+		&.primary {
+			@include a-button($btn-primary-bg, $btn-primary-color);
+		}
+		&.secondary {
+			@include a-button($btn-secondary-bg, $btn-secondary-color);
+		}
+		&.success {
+			@include a-button($btn-success-bg, $btn-success-color);
+		}
+		&.warning {
+			@include a-button($btn-warning-bg, $btn-warning-color);
+		}
+		&.danger {
+			@include a-button($btn-danger-bg, $btn-danger-color);
+		}
+		&.transparent {
+			@include a-button($btn-transparent-bg, $btn-transparent-color);
+			text-decoration: underline;
+		}
+	}
+	&.outline {
+		@extend %a-button-outline;
+		&.primary {
+			@include a-button-outline($btn-primary-bg);
+		}
+		&.secondary {
+			@include a-button-outline($btn-secondary-bg);
+		}
+		&.success {
+			@include a-button-outline($btn-success-bg);
+		}
+		&.warning {
+			@include a-button-outline($btn-warning-bg);
+		}
+		&.danger {
+			@include a-button-outline($btn-danger-bg);
+		}
+		&.transparent {
+			@include a-button-outline($btn-transparent-bg);
+			text-decoration: underline;
+		}	
+	}
+	.icon, .fa {
+		display: flex;
+	    margin: 0 1rem 0 0;
+	}
+	&.tiny {
+		font-size: rem($btn-font-size-ti);
+		min-height: $spacer;
+		padding: ($spacer-xs / 3) $spacer-xs;
+		.icon {
+			font-size: rem($btn-icon-size-ti);
+		}
+	}
+	&.small {
+		font-size: rem($btn-font-size-sm);
+		min-height: $spacer-md;
+		padding: ($spacer-sm / 2) $spacer;
+		.icon {
+			font-size: rem($btn-icon-size-sm);
+		}
+	}
+	&.large {
+		font-size: rem($btn-font-size-lg);
+		min-height: $spacer-xl;
+		padding: $spacer-sm $spacer;
+		.icon {
+			font-size: rem($btn-icon-size-lg);
+		}
+	}
+	&.icon-right {
+		:not(.icon) {
+			order: 1;
+		}
+		.icon {
+			order: 2;
+			margin: 0 0 0 1rem;
+		}
+	}
+	span {
+		cursor: pointer;
+		text-transform: capitalize;
+		white-space: nowrap;
+	}
+}
+
+.data-table {
+	margin: 1rem;
+	.data-common-header {
+		.data-combo-filter, .cell-actions {
+			margin: 0rem;
+			.combo-filter {
+				margin: 1rem 0;
+				.n-input-combo-label-container {
+					
+				}
+				.combo-filter-field {
+					width: 100%;
+					.n-input-combo-input-container {
+						
+					}
+					.n-form-combo-bottom {
+						display: none;
+					}
+					.n-form-optional {
+						width: 100%;
+					}
+				}
+			}
+			.combo-filter-tags {
+			    display: flex;
+			    flex-flow: row wrap;
+			    margin: 1rem 0 0;
+				.combo-filter-tag {
+					@extend %m-tag;
+					margin: 0 1rem 1rem 0;
+					display: flex;
+					flex-flow: row nowrap;
+					.key {
+						@extend %m-tag__input;
+						order: 1;
+							&:after {
+								content: ":";
+							}
+					}
+					.value {
+						@extend %m-tag__label;
+						order: 2;
+					}
+					.fa {
+						@extend .a-button-transparent;
+						@extend .a-button--small;
+						@extend .a-button--danger; 
+						@extend .has-icon;
+					    align-items: center;
+					    display: flex;
+						order: 3;
+						justify-content: center;
+					}
+				}
+			}
+		}
+	}
+	table {
+		@extend %a-table;
+		thead {
+			@extend %a-table_thead;
+			tr {
+				th {
+					@extend %a-table_td;
+					// white-space: nowrap;
+					text-transform: capitalize;
+				}
+			}
+		}
+		tbody {
+			tr {
+				@extend %a-table_tr;
+				@extend %a-table_tr_clickable;
+				color: $black;
+				td {
+					@extend %a-table_td;
+					&.actions {
+						display: flex;
+					    justify-content: flex-end;
+					    label {
+					    	cursor: pointer;
+					    }
+					}
+				}
+				&.is-disabled {
+					background-color:  $state-disabled;
+					pointer-events: none;
+				}
+			}
+		}
+		&.primary {
+			thead {
+				color: $btn-primary-color;
+				background-color: $btn-primary-bg;
+			}
+		}
+		&.secondary {
+			thead {
+				color: $btn-secondary-color;
+				background-color: $btn-secondary-bg;
+			}
+		}
+		&.success {
+			thead {
+				color: $btn-success-color;
+				background-color: $btn-success-bg;
+			}
+		}
+		&.warning {
+			thead {
+				color: $btn-warning-color;
+				background-color: $btn-warning-bg;
+			}
+		}
+		&.danger {
+			thead {
+				color: $btn-danger-color;
+				background-color: $btn-danger-bg;
+			}
+		}
+		&.transparent {
+			thead {
+				color: $btn-transparent-color;
+				background-color: $btn-transparent-bg;
+				text-decoration: underline;
+			}
+		}
+	}
+	.n-paging {
+		margin: 1rem 0;
+		@extend .m-pagination;
+	    justify-content: center;
+	    button {
+	    	@extend %a-button;
+	    	border: 1px solid white;
+		    border-style: none solid none none;
+	    }
+	}
+	.no-data {
+		border: $border;
+		border-style: dashed;
+		background-color: $primary-contrast;
+	    margin: 1rem 0;
+	    padding: 1rem;
+	    text-align: center;
+	}		
+	.data-common-footer {
+		margin: 1rem 0;
+		.global-actions {
+			display: flex;
+		}
+	}
+}
+
+.n-form {
+	margin: 1rem;
+	.n-form-content {
+		display: flex;
+		flex-direction: column;
+		.n-form-section {
+			.n-form-component {
+				margin: 0.5rem 0;
+				width: 100%;
+				label {
+					display: block;
+					color: $beta-contrast;
+					padding: 0.4rem 0;
+				}
+				&.n-form-checkbox, &.n-form-radio {
+					label {
+						padding: 0;
+						padding-left: 0.5rem;
+					}
+				}
+				&.n-form-combo {
+					.n-form-combo-bottom {
+						display: none;
+					}
+				}
+				&.n-form-text:not(.n-form-date-input) {
+					.field {
+						width: 100%;
+					}
+				}
+				&.n-form-text.n-form-date-input {
+					input, textarea {
+						width: calc(100% - 3rem);
+					}
+					.n-icon {
+						background-color: $btn-primary-bg;
+					}					
+				}			
+				textarea {
+					min-height: 10rem;
+				}
+				.n-input-result {
+					display: none;
+				}
+			}
+			&.row {
+				.n-form-section {
+					margin: 0 1rem 0 0;
+				}
+				.n-form-section + .n-form-section {
+					margin: 0 0 0 1rem;
+				}
+			}
+		}
+	}
+	> footer {
+		margin: 1rem 0rem;
+		footer {
+			margin: 0;
+		}
+		.footer-edit {
+			.form-edit {
+				@extend .primary;
+			}
+		}
+		.footer-standard {
+			justify-content: flex-end;
+			// button {
+			// 	margin: 0 1rem;
+			// }
+		}
+	}
+}
+
+.page-fields {
+	@extend %a-definition-list;
+}

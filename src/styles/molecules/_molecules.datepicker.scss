@@ -71,7 +71,7 @@
       background-color: $datepicker-bg-hover;
     }
 
-    &.is-current {
+    &.is-current, %m-datepicker__calendar-is-today {
       background-color: $datepicker-today-bg;
       color: $datepicker-today-color;
       font-weight: $datepicker-today-font-weight;
@@ -82,7 +82,7 @@
       }
     }
 
-    &.is-selected {
+    &.is-selected, %m-datepicker__calendar-is-selected {
       background-color: $datepicker-selected-bg;
       box-shadow: 0 0 0 1px $datepicker-selected-bg;
       color: $datepicker-selected-color;
@@ -105,7 +105,7 @@
     }
 
     &.is-unavailable,
-    &:disabled {
+    &:disabled, %m-datepicker__calendar-is-unavailable {
       background-color: $datepicker-unavailable-bg;
       box-shadow: none;
       color: $state-disabled;

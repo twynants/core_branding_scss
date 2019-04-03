@@ -172,7 +172,7 @@
  * -------------------------------------------------------------------
  */
 
-.a-button-negative {
+.a-button-negative, %a-button-negative {
   @include a-button($btn-primary-bg, $btn-primary-color);
 
   &.a-button--secondary {
@@ -198,7 +198,7 @@
  * -------------------------------------------------------------------
  */
 
-.a-button-outline {
+.a-button-outline, %a-button-outline {
   @include a-button-outline;
 
   &.a-button--secondary {

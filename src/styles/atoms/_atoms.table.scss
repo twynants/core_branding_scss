@@ -15,17 +15,17 @@
   border-collapse: collapse;
   width: 100%;
 
-  thead {
+  thead, %a-table_thead {
     background: $background-color-light;
   }
 
-  tr {
+  tr, %a-table_tr {
     border-bottom: 1px solid $table-border;
     height: $spacer-lg;
     transition: background-color $animation-duration $animation-easing;
 
     &.a-table--clickable,
-    &.has-click-action {
+    &.has-click-action, %a-table_tr_clickable {
       &:hover {
         background-color: $link-background-color;
         cursor: pointer;
@@ -34,7 +34,7 @@
   }
 
   th,
-  td {
+  td, %a-table_td {
     padding: $table-padding;
 
     &:not(.u-text-center):not(.u-text-right):not(.u-text-justify) {

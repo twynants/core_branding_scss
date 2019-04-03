@@ -1,0 +1,16 @@
+.header {
+	.page-cell {
+		@extend %o-header;
+		border-bottom: 1px solid $border-color;
+		.page-actions {
+			margin: 0;
+			display: flex;
+			flex-flow: row nowrap;
+		    justify-content: flex-end;
+		    .page-action {
+		    	border: 1px solid $border-color;
+		    	border-style: none solid;
+		    }
+		}
+	}
+}
