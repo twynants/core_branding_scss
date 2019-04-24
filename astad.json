@@ -568,6 +568,9 @@
 			"component.js": {
 				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/views/component.js"
 			},
+			"astad-skeleton.json": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/views/astad-skeleton.json"
+			},
 			"astad-kaai": {
 				"astad-kaai.scss": {
 					"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/views/astad-kaai/astad-kaai.scss"
