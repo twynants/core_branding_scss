@@ -566,17 +566,17 @@
 				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/pagebuilder/_pagebuilder._pages.scss"
 			},
 			"component.js": {
-				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/pagebuilder/component.js"
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/views/component.js"
 			},
 			"astad-kaai": {
 				"astad-kaai.scss": {
-					"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/pagebuilder/astad-kaai/astad-kaai.scss"
+					"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/views/astad-kaai/astad-kaai.scss"
 				},
 				"astad-kaai.js": {
-					"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/pagebuilder/astad-kaai/astad-kaai.js"
+					"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/views/astad-kaai/astad-kaai.js"
 				},
 				"astad-kaai.tpl": {
-					"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/pagebuilder/astad-kaai/astad-kaai.tpl"
+					"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/views/astad-kaai/astad-kaai.tpl"
 				}
 			}
 		},
