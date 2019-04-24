@@ -8,3 +8,4 @@ node_modules
 # Project files
 .tmp
 dist
+.DS_Store
