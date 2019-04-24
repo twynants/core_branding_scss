@@ -1,0 +1,29 @@
+body {
+	background-color: $white;
+}
+
+[route="login"] {
+	.nabu.nabu-cms.nabu-cms-core-login {
+		margin: 0 0 0 auto;
+	    height: 100vh;
+	    background-color: $grey-lighter;
+	    border: none;
+	    box-shadow: none;
+		footer {
+			margin-top: 0rem;
+			.actions {
+				padding: 1rem 0;
+				text-align: left;
+			}
+		}
+	}
+}
+
+button {
+	@extend %a-button;
+}
+
+// color-mapping
+.primary {
+	background-color: $endeavour;
+}

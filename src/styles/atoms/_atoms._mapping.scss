@@ -113,6 +113,9 @@
 .data-table {
 	margin: 1rem;
 	.data-common-header {
+		h2 {
+		    margin: 0 0 1rem;
+		}
 		.data-combo-filter, .cell-actions {
 			margin: 0rem;
 			.combo-filter {
@@ -315,6 +318,12 @@
 				}
 				.n-form-section + .n-form-section {
 					margin: 0 0 0 1rem;
+				}
+			}
+			&.disabled {
+				pointer-events: none;
+				.field {
+					background-color: $disabled-color;
 				}
 			}
 		}

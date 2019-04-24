@@ -1,0 +1,587 @@
+{
+	"name": "astad.json",
+	"resources": {
+		"fonts": {
+			"Antwerpen-Regular.eot": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/Antwerpen-Regular.eot"
+			},
+			"Antwerpen-Regular.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/Antwerpen-Regular.svg"
+			},
+			"Antwerpen-Regular.ttf": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/Antwerpen-Regular.ttf"
+			},
+			"Antwerpen-Regular.woff": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/Antwerpen-Regular.woff"
+			},
+			"AntwerpenSmallCaps-Regular.eot": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/AntwerpenSmallCaps-Regular.eot"
+			},
+			"AntwerpenSmallCaps-Regular.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/AntwerpenSmallCaps-Regular.svg"
+			},
+			"AntwerpenSmallCaps-Regular.ttf": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/AntwerpenSmallCaps-Regular.ttf"
+			},
+			"AntwerpenSmallCaps-Regular.woff": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/AntwerpenSmallCaps-Regular.woff"
+			},
+			"AntwerpenTall-Tall.eot": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/AntwerpenTall-Tall.eot"
+			},
+			"AntwerpenTall-Tall.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/AntwerpenTall-Tall.svg"
+			},
+			"AntwerpenTall-Tall.ttf": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/AntwerpenTall-Tall.ttf"
+			},
+			"AntwerpenTall-Tall.woff": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/AntwerpenTall-Tall.woff"
+			},
+			"Antwerpen_Icons.eot": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/Antwerpen_Icons.eot"
+			},
+			"Antwerpen_Icons.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/Antwerpen_Icons.svg"
+			},
+			"Antwerpen_Icons.ttf": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/Antwerpen_Icons.ttf"
+			},
+			"Antwerpen_Icons.woff": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/Antwerpen_Icons.woff"
+			},
+			"SunAntwerpen-Bold-Italic.eot": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/SunAntwerpen-Bold-Italic.eot"
+			},
+			"SunAntwerpen-Bold-Italic.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/SunAntwerpen-Bold-Italic.svg"
+			},
+			"SunAntwerpen-Bold-Italic.ttf": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/SunAntwerpen-Bold-Italic.ttf"
+			},
+			"SunAntwerpen-Bold-Italic.woff": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/SunAntwerpen-Bold-Italic.woff"
+			},
+			"SunAntwerpen-Bold.eot": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/SunAntwerpen-Bold.eot"
+			},
+			"SunAntwerpen-Bold.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/SunAntwerpen-Bold.svg"
+			},
+			"SunAntwerpen-Bold.ttf": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/SunAntwerpen-Bold.ttf"
+			},
+			"SunAntwerpen-Bold.woff": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/SunAntwerpen-Bold.woff"
+			},
+			"SunAntwerpen-ExtraBold-Italic.eot": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/SunAntwerpen-ExtraBold-Italic.eot"
+			},
+			"SunAntwerpen-ExtraBold-Italic.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/SunAntwerpen-ExtraBold-Italic.svg"
+			},
+			"SunAntwerpen-ExtraBold-Italic.ttf": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/SunAntwerpen-ExtraBold-Italic.ttf"
+			},
+			"SunAntwerpen-ExtraBold-Italic.woff": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/SunAntwerpen-ExtraBold-Italic.woff"
+			},
+			"SunAntwerpen-ExtraBold.eot": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/SunAntwerpen-ExtraBold.eot"
+			},
+			"SunAntwerpen-ExtraBold.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/SunAntwerpen-ExtraBold.svg"
+			},
+			"SunAntwerpen-ExtraBold.ttf": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/SunAntwerpen-ExtraBold.ttf"
+			},
+			"SunAntwerpen-ExtraBold.woff": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/SunAntwerpen-ExtraBold.woff"
+			},
+			"SunAntwerpen-Light-Italic.eot": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/SunAntwerpen-Light-Italic.eot"
+			},
+			"SunAntwerpen-Light-Italic.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/SunAntwerpen-Light-Italic.svg"
+			},
+			"SunAntwerpen-Light-Italic.ttf": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/SunAntwerpen-Light-Italic.ttf"
+			},
+			"SunAntwerpen-Light-Italic.woff": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/SunAntwerpen-Light-Italic.woff"
+			},
+			"SunAntwerpen-Light.eot": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/SunAntwerpen-Light.eot"
+			},
+			"SunAntwerpen-Light.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/SunAntwerpen-Light.svg"
+			},
+			"SunAntwerpen-Light.ttf": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/SunAntwerpen-Light.ttf"
+			},
+			"SunAntwerpen-Light.woff": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/SunAntwerpen-Light.woff"
+			},
+			"SunAntwerpen-Regular-Italic.eot": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/SunAntwerpen-Regular-Italic.eot"
+			},
+			"SunAntwerpen-Regular-Italic.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/SunAntwerpen-Regular-Italic.svg"
+			},
+			"SunAntwerpen-Regular-Italic.ttf": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/SunAntwerpen-Regular-Italic.ttf"
+			},
+			"SunAntwerpen-Regular-Italic.woff": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/SunAntwerpen-Regular-Italic.woff"
+			},
+			"SunAntwerpen-Regular.eot": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/SunAntwerpen-Regular.eot"
+			},
+			"SunAntwerpen-Regular.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/SunAntwerpen-Regular.svg"
+			},
+			"SunAntwerpen-Regular.ttf": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/SunAntwerpen-Regular.ttf"
+			},
+			"SunAntwerpen-Regular.woff": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/fonts/SunAntwerpen-Regular.woff"
+			}
+		},
+		"images": {
+			"a-logo.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/images/a-logo.svg"
+			}
+		},
+		"icons": {
+			"a-card.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/a-card.svg"
+			},
+			"akaart-outline.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/akaart-outline.svg"
+			},
+			"akaart-zuilen.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/akaart-zuilen.svg"
+			},
+			"antwerp.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/antwerp.svg"
+			},
+			"calendar.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/calendar.svg"
+			},
+			"career.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/career.svg"
+			},
+			"channels.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/channels.svg"
+			},
+			"communication.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/communication.svg"
+			},
+			"contact.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/contact.svg"
+			},
+			"contactbook.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/contactbook.svg"
+			},
+			"culture.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/culture.svg"
+			},
+			"digital-work.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/digital-work.svg"
+			},
+			"districts.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/districts.svg"
+			},
+			"diversity.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/diversity.svg"
+			},
+			"education.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/education.svg"
+			},
+			"ewindow-small.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/ewindow-small.svg"
+			},
+			"ewindow.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/ewindow.svg"
+			},
+			"finance.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/finance.svg"
+			},
+			"folder.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/folder.svg"
+			},
+			"helpcenter.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/helpcenter.svg"
+			},
+			"ict.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/ict.svg"
+			},
+			"jobs.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/jobs.svg"
+			},
+			"leisure.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/leisure.svg"
+			},
+			"link.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/link.svg"
+			},
+			"map-small.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/map-small.svg"
+			},
+			"map.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/map.svg"
+			},
+			"media.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/media.svg"
+			},
+			"mobility.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/mobility.svg"
+			},
+			"my-time.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/my-time.svg"
+			},
+			"news-small.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/news-small.svg"
+			},
+			"news.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/news.svg"
+			},
+			"ocmw-intranet.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/ocmw-intranet.svg"
+			},
+			"ocmw-medewerkers.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/ocmw-medewerkers.svg"
+			},
+			"personal-news.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/personal-news.svg"
+			},
+			"play.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/play.svg"
+			},
+			"report.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/report.svg"
+			},
+			"reside.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/reside.svg"
+			},
+			"sanitation.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/sanitation.svg"
+			},
+			"search-standard.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/search-standard.svg"
+			},
+			"so-intranet.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/so-intranet.svg"
+			},
+			"social-affairs.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/social-affairs.svg"
+			},
+			"sports.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/sports.svg"
+			},
+			"staff.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/staff.svg"
+			},
+			"time.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/time.svg"
+			},
+			"traffic.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/traffic.svg"
+			},
+			"uit-vlieg.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/uit-vlieg.svg"
+			},
+			"uit.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/uit.svg"
+			},
+			"webmail.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/webmail.svg"
+			},
+			"welfare.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/welfare.svg"
+			},
+			"wiki.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/wiki.svg"
+			},
+			"yammer.svg": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/icons/yammer.svg"
+			}
+		},		
+		"quarks": {
+			"_quarks.colors.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/quarks/_quarks.colors.scss"
+			},
+			"_quarks.functions.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/quarks/_quarks.functions.scss"
+			},
+			"_quarks.mixins.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/quarks/_quarks.mixins.scss"
+			},
+			"_quarks.variables.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/quarks/_quarks.variables.scss"
+			},
+			"_quarks._mapping.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/quarks/_quarks._mapping.scss"
+			}			
+		},
+		"molecules": {
+			"_molecules.accordion.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/molecules/_molecules.accordion.scss"
+			},
+			"_molecules.alert.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/molecules/_molecules.alert.scss"
+			},
+			"_molecules.breadcrumb.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/molecules/_molecules.breadcrumb.scss"
+			},
+			"_molecules.button-group.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/molecules/_molecules.button-group.scss"
+			},
+			"_molecules.button-list.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/molecules/_molecules.button-list.scss"
+			},
+			"_molecules.card.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/molecules/_molecules.card.scss"
+			},
+			"_molecules.collapsible-list.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/molecules/_molecules.collapsible-list.scss"
+			},
+			"_molecules.contact.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/molecules/_molecules.contact.scss"
+			},
+			"_molecules.datepicker.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/molecules/_molecules.datepicker.scss"
+			},
+			"_molecules.flyout.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/molecules/_molecules.flyout.scss"
+			},
+			"_molecules.gallery.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/molecules/_molecules.gallery.scss"
+			},
+			"_molecules.icon-list.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/molecules/_molecules.icon-list.scss"
+			},
+			"_molecules.image.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/molecules/_molecules.image.scss"
+			},
+			"_molecules.modal.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/molecules/_molecules.modal.scss"
+			},
+			"_molecules.navigation.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/molecules/_molecules.navigation.scss"
+			},
+			"_molecules.overlay.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/molecules/_molecules.overlay.scss"
+			},
+			"_molecules.pagination.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/molecules/_molecules.pagination.scss"
+			},
+			"_molecules.progress.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/molecules/_molecules.progress.scss"
+			},
+			"_molecules.range-slider.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/molecules/_molecules.range-slider.scss"
+			},
+			"_molecules.selectable-list.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/molecules/_molecules.selectable-list.scss"
+			},
+			"_molecules.step-indicator.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/molecules/_molecules.step-indicator.scss"
+			},
+			"_molecules.tag.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/molecules/_molecules.tag.scss"
+			},
+			"_molecules.upload.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/molecules/_molecules.upload.scss"
+			},
+			"_molecules._mapping.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/molecules/_molecules._mapping.scss"
+			}			
+		},
+		"atoms": {
+			"_atoms.addon.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/atoms/_atoms.addon.scss"
+			},
+			"_atoms.avatar.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/atoms/_atoms.avatar.scss"
+			},
+			"_atoms.badge.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/atoms/_atoms.badge.scss"
+			},
+			"_atoms.button.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/atoms/_atoms.button.scss"
+			},
+			"_atoms.code.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/atoms/_atoms.code.scss"
+			},
+			"_atoms.copyright.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/atoms/_atoms.copyright.scss"
+			},
+			"_atoms.form.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/atoms/_atoms.form.scss"
+			},
+			"_atoms.input.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/atoms/_atoms.input.scss"
+			},
+			"_atoms.label.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/atoms/_atoms.label.scss"
+			},
+			"_atoms.link.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/atoms/_atoms.link.scss"
+			},
+			"_atoms.list.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/atoms/_atoms.list.scss"
+			},
+			"_atoms.radio-checkbox.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/atoms/_atoms.radio-checkbox.scss"
+			},
+			"_atoms.spinner.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/atoms/_atoms.spinner.scss"
+			},
+			"_atoms.switch.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/atoms/_atoms.switch.scss"
+			},
+			"_atoms.table.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/atoms/_atoms.table.scss"
+			},
+			"_atoms.timepicker.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/atoms/_atoms.timepicker.scss"
+			},
+			"_atoms.toggle.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/atoms/_atoms.toggle.scss"
+			},
+			"_atoms.tooltip.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/atoms/_atoms.tooltip.scss"
+			},
+			"_atoms._mapping.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/atoms/_atoms._mapping.scss"
+			}			
+		},
+		"aui": {
+			"_aui.animation.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/aui/_aui.animation.scss"
+			},
+			"_aui.cookieconsent.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/aui/_aui.cookieconsent.scss"
+			},
+			"_aui.header.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/aui/_aui.header.scss"
+			},
+			"_aui.hero.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/aui/_aui.hero.scss"
+			},
+			"_aui.item-counter.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/aui/_aui.item-counter.scss"
+			},
+			"_aui.leaflet.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/aui/_aui.leaflet.scss"
+			},
+			"_aui.pane.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/aui/_aui.pane.scss"
+			},
+			"_aui.range-slider.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/aui/_aui.range-slider.scss"
+			},
+			"_aui.search-filter.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/aui/_aui.search-filter.scss"
+			},
+			"_aui.sidebar.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/aui/_aui.sidebar.scss"
+			},
+			"_aui.statusbar.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/aui/_aui.statusbar.scss"
+			},
+			"_aui.table.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/aui/_aui.table.scss"
+			},
+			"_aui.timepicker.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/aui/_aui.timepicker.scss"
+			},
+			"_aui.upload.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/aui/_aui.upload.scss"
+			},
+			"_aui._mapping.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/aui/_aui._mapping.scss"
+			}			
+		},
+		"base": {
+			"_base.antwerpen-icons.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/base/_base.antwerpen-icons.scss"
+			},
+			"_base.fonts.antwerpen.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/base/_base.fonts.antwerpen.scss"
+			},
+			"_base.fonts.sun-antwerpen.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/base/_base.fonts.sun-antwerpen.scss"
+			},
+			"_base.layout.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/base/_base.layout.scss"
+			},
+			"_base.media.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/base/_base.media.scss"
+			},
+			"_base.typography.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/base/_base.typography.scss"
+			},
+			"_base._mapping.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/base/_base._mapping.scss"
+			}			
+		},
+		"organisms": {
+			"_organisms.footer.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/organisms/_organisms.footer.scss"
+			},
+			"_organisms.header.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/organisms/_organisms.header.scss"
+			},
+			"_organisms.slideshow.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/organisms/_organisms.slideshow.scss"
+			},
+			"_organisms.tag-list.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/organisms/_organisms.tag-list.scss"
+			},
+			"_organisms._mapping.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/organisms/_organisms._mapping.scss"
+			}				
+		},
+		"utilities": {
+			"_utilities.background.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/utilities/_utilities.background.scss"
+			},
+			"_utilities.layout.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/utilities/_utilities.layout.scss"
+			},
+			"_utilities.spacing.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/utilities/_utilities.spacing.scss"
+			},
+			"_utilities.text.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/utilities/_utilities.text.scss"
+			},
+			"_utilities._mapping.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/utilities/_utilities._mapping.scss"
+			}
+		},
+		"pagebuilder": {
+			"_pagebuilder._pages.scss": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/pagebuilder/_pagebuilder._pages.scss"
+			},
+			"component.js": {
+				"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/pagebuilder/component.js"
+			},
+			"astad-kaai": {
+				"astad-kaai.scss": {
+					"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/pagebuilder/astad-kaai/astad-kaai.scss"
+				},
+				"astad-kaai.js": {
+					"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/pagebuilder/astad-kaai/astad-kaai.js"
+				},
+				"astad-kaai.tpl": {
+					"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/pagebuilder/astad-kaai/astad-kaai.tpl"
+				}
+			}
+		},
+		"styleguide.scss": {
+			"url": "https://raw.githubusercontent.com/twynants/core_branding_scss/master/src/styles/styleguide.scss"
+		}
+	}
+}

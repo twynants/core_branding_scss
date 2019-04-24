@@ -27,9 +27,15 @@
 	}
 	&.sidebar {
 		@extend %m-nav-list;
-		.page-action {
-			.page-action-entry {
-				text-align: left;
+		&.page-actions-root {
+			
+			.page-action {
+				.page-action-entry {
+					text-align: left;
+				    display: flex;
+				    align-items: center;
+				    justify-content: flex-start;
+				}
 			}
 		}
 	}
@@ -42,6 +48,16 @@
 		&.page-actions-root {
 			margin: 0 1rem;
 			flex-flow: row;
+		}
+	}
+	&.horizontal {
+		display: flex;
+		flex-flow: row nowrap;
+		.page-action {
+			margin: 0 1rem 0 0;
+		}
+		.page-action + .page-action {
+			margin: 0 1rem;	
 		}
 	}
 	&.navigation {
