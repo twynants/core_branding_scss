@@ -5,7 +5,7 @@
 			@extend %m-accordion__tab;
 			.page-action-label {
 				@extend %m-accordion__header;
-				background-color: darken($light-color,10);
+				background-color: darken($accordion-header-bg, 10);
 				&:after {
 				    font-family: 'Font Awesome 5 Free' !important;
 					font-weight: 900 !important;
