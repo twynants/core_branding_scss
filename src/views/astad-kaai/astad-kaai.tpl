@@ -1,4 +1,4 @@
-<template id="astad-kaai">
+<!-- <template id="astad-kaai">
 	<div class="astad-kaai">
 		<n-sidebar v-if="configuring" @close="configuring = false" class="settings">
 			<n-form class="layout2">
@@ -22,4 +22,4 @@
 			</div>
 		</div>
 	</div>	
-</template>
+</template> -->
