@@ -19,6 +19,7 @@
 			}
 			[template="nabu-page"] .page {
 				@extend %m-accordion__content;
+				min-height: 2rem;
 				[template="nabu-page"] .page {
 					border: none;
 				}
