@@ -10,6 +10,15 @@
 		    .page-action {
 		    	border: 1px solid $border-color;
 		    	border-style: none solid;
+			    &.has-children {
+			    	position: relative;
+			    	.page-actions {
+			    		position: absolute;
+			    		.page-action {
+			    			border-style: solid;
+			    		}
+			    	}
+			    }
 		    }
 		}
 	}
