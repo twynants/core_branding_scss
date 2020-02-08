@@ -112,7 +112,7 @@
 
 .data-table {
 	margin: 1rem;
-	.data-common-header {
+// 	.data-common-header {
 		h2 {
 		    margin: 0 0 1rem;
 		}
@@ -169,7 +169,7 @@
 				}
 			}
 		}
-	}
+// 	}
 	table {
 		@extend %a-table;
 		thead {
