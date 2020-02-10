@@ -3,7 +3,7 @@
 	&.accordion {
 		.page-action {
 			@extend %m-accordion__tab;
-			.page-action-link {
+			.page-action-entry {
 				@extend %m-accordion__header;
 				background-color: darken($accordion-header-bg, 10);
 				&:after {
